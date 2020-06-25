@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="diplom.diplom.TemplateTest"
+    android:background="@drawable/truefon"
+    >
+
+    <Button
+        android:id="@+id/buttonAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonAnswer2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/roundfortest"
+        android:backgroundTint="#ced0e4"
+        android:text="Ответ1"
+        android:textColor="#FF000000" />
+
+    <Button
+        android:id="@+id/buttonAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/roundfortest"
+        android:backgroundTint="#ced0e4"
+        android:text="Ответ2"
+        android:textColor="#FF000000"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <Button
+        android:id="@+id/buttonAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonAnswer2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/roundfortest"
+        android:backgroundTint="#ced0e4"
+        android:text="Ответ3"
+        android:textColor="#FF000000"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/buttonAnswer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonAnswer3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/roundfortest"
+        android:backgroundTint="#ced0e4"
+        android:text="Ответ4"
+        android:textColor="#FF000000"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        style="@style/RoundedCornerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#6485bf"
+        android:text="Далее"
+        android:textColor="#FF000000"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="-"
+        android:background="@drawable/rufon"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FF000000"
+        />
+
+    <Chronometer
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="1dp"
+        android:id="@+id/chronometer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textSize="20dp"
+         />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/buttonAnswer3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/rufon"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="-"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonChek"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonAnswer2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/round"
+        android:text="Проверить" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rufon"
+        app:srcCompat="@drawable/fon" />
+
+    <Button
+        android:id="@+id/buttonListQuest"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/roundfortest"
+        android:text="вопросы"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/buttonHelp"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="1dp"
+
+        android:background="@drawable/roundfortest"
+        android:text="памятка"
+        android:textSize="13dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/truefon"
+    tools:context="diplom.diplom.MainMenu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+    <Button
+        android:id="@+id/buttonRuss"
+        style="@style/RoundedCornerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#a2c4da"
+        android:elevation="1dp"
+        android:text="Русский"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="100dp"
+        android:layout_above="@+id/buttonHistory"
+        android:layout_alignLeft="@+id/buttonTickets"
+        android:layout_alignStart="@+id/buttonTickets"
+        android:layout_alignRight="@+id/buttonTickets"
+        android:layout_alignEnd="@+id/buttonTickets" />
+
+    <Button
+        android:id="@+id/buttonHistory"
+        style="@style/RoundedCornerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#a2c4da"
+        android:text="История"
+        android:layout_above="@+id/buttonSocial"
+        android:layout_alignLeft="@+id/buttonRuss"
+        android:layout_alignStart="@+id/buttonRuss"
+        android:layout_alignRight="@+id/buttonRuss"
+        android:layout_alignEnd="@+id/buttonRuss" />
+
+    <Button
+        android:id="@+id/buttonSocial"
+        style="@style/RoundedCornerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#a2c4da"
+        android:text="Основы"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/buttonHistory"
+        android:layout_alignStart="@+id/buttonHistory"
+        android:layout_alignRight="@+id/buttonHistory"
+        android:layout_alignEnd="@+id/buttonHistory" />
+
+    <Button
+        android:id="@+id/buttonInformation"
+        style="@style/RoundedCornerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#6485bf"
+        android:text="Информация"
+        android:layout_above="@+id/buttonStats"
+        android:layout_alignLeft="@+id/buttonErrors"
+        android:layout_alignStart="@+id/buttonErrors"
+        android:layout_alignRight="@+id/buttonErrors"
+        android:layout_alignEnd="@+id/buttonErrors" />
+
+    <Button
+        android:id="@+id/buttonTickets"
+        style="@style/RoundedCornerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#a2c4da"
+        android:text="Билеты"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/buttonRuss"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/buttonErrors"
+        style="@style/RoundedCornerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#6485bf"
+        android:text="Ошибки"
+        android:layout_above="@+id/buttonInformation"
+        android:layout_alignLeft="@+id/buttonSocial"
+        android:layout_alignStart="@+id/buttonSocial"
+        android:layout_alignRight="@+id/buttonSocial"
+        android:layout_alignEnd="@+id/buttonSocial" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        style="@style/RoundedCornerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#6485bf"
+        android:text="Выход"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/buttonStats"
+        android:layout_alignStart="@+id/buttonStats"
+        android:layout_alignRight="@+id/buttonInformation"
+        android:layout_alignEnd="@+id/buttonInformation" />
+
+    <Button
+        android:id="@+id/buttonStats"
+        style="@style/RoundedCornerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#6485bf"
+        android:text="Статистика"
+        android:layout_above="@+id/buttonExit"
+        android:layout_alignLeft="@+id/buttonInformation"
+        android:layout_alignStart="@+id/buttonInformation"
+        android:layout_marginBottom="13dp"
+        android:layout_alignRight="@+id/buttonInformation"
+        android:layout_alignEnd="@+id/buttonInformation" />
+
+    <Button
+        android:id="@+id/buttonExam"
+        style="@style/RoundedCornerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/buttonTickets"
+        android:layout_alignEnd="@+id/buttonTickets"
+        android:layout_alignLeft="@+id/buttonTickets"
+        android:layout_alignRight="@+id/buttonTickets"
+        android:layout_alignStart="@+id/buttonTickets"
+        android:background="@drawable/round"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Экзамен" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

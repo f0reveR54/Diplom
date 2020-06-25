@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="diplom.diplom.EndTest"
+    android:background="@drawable/truefon">
+
+    <Button
+        android:id="@+id/buttonRepeat"
+        style="@style/RoundedCornerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#6485bf"
+        android:text="Пройти ещё раз"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="230dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/textViewHis"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonMenu"
+        style="@style/RoundedCornerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#6485bf"
+        android:text="Меню"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="288dp"
+        android:layout_below="@+id/buttonRepeat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rufon"
+        android:gravity="left"
+        android:text="Правильных ответов"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:background="@drawable/rufon"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="120dp"
+
+        android:gravity="left"
+
+        android:text="Неотвеченных"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:background="@drawable/rufon"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="160dp"
+
+        android:gravity="left"
+        android:text="Неправильных"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:background="@drawable/rufon"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewHis"
+        android:background="@drawable/rufon"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="200dp"
+        android:gravity="left"
+        android:text="История"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+</RelativeLayout>

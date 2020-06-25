@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="diplom.diplom.Tickets"
+    android:background="@drawable/truefon">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/dataView1"
+                android:layout_width="50dp"
+                android:layout_height="36dp"
+                android:layout_alignBottom="@+id/textViewTicket1"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/buttonTicket1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/textViewTicket2"
+                android:layout_toEndOf="@+id/textViewTicket2" />
+
+            <TextView
+                android:id="@+id/dataView2"
+                android:layout_width="50dp"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView1"
+                android:layout_above="@+id/textViewTicket3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignLeft="@+id/dataView1"
+                android:layout_alignStart="@+id/dataView1" />
+
+            <TextView
+                android:id="@+id/dataView3"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView2"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/textViewTicket4"
+                android:layout_toEndOf="@+id/textViewTicket2"
+                android:layout_alignLeft="@+id/dataView2"
+                android:layout_alignStart="@+id/dataView2" />
+
+            <TextView
+                android:id="@+id/dataView4"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView3"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/textViewTicket5"
+                android:layout_toEndOf="@+id/textViewTicket5"
+                android:layout_alignLeft="@+id/dataView3"
+                android:layout_alignStart="@+id/dataView3" />
+
+            <TextView
+                android:id="@+id/dataView5"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView4"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/textViewTicket6"
+                android:layout_toEndOf="@+id/textViewTicket5"
+                android:layout_alignLeft="@+id/dataView4"
+                android:layout_alignStart="@+id/dataView4" />
+
+            <TextView
+                android:id="@+id/dataView6"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView5"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/textViewTicket7"
+                android:layout_toEndOf="@+id/textViewTicket5"
+                android:layout_alignLeft="@+id/dataView5"
+                android:layout_alignStart="@+id/dataView5" />
+
+            <TextView
+                android:id="@+id/dataView7"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView6"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/textViewTicket8"
+                android:layout_toEndOf="@+id/textViewTicket6"
+                android:layout_alignLeft="@+id/dataView6"
+                android:layout_alignStart="@+id/dataView6" />
+
+            <TextView
+                android:id="@+id/dataView8"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView7"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/textViewTicket9"
+                android:layout_toEndOf="@+id/textViewTicket9"
+                android:layout_alignLeft="@+id/dataView7"
+                android:layout_alignStart="@+id/dataView7" />
+
+            <TextView
+                android:id="@+id/dataView9"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView8"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_above="@+id/textViewTicket10"
+                android:layout_toEndOf="@+id/textViewTicket10"
+                android:layout_alignLeft="@+id/dataView8"
+                android:layout_alignStart="@+id/dataView8" />
+
+            <TextView
+                android:id="@+id/dataView10"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView9"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/textViewTicket11"
+                android:layout_toEndOf="@+id/textViewTicket10"
+                android:layout_alignLeft="@+id/dataView9"
+                android:layout_alignStart="@+id/dataView9" />
+
+            <TextView
+                android:id="@+id/dataView11"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_below="@+id/dataView10"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/textViewTicket12"
+                android:layout_toEndOf="@+id/textViewTicket10"
+                android:layout_alignLeft="@+id/dataView10"
+                android:layout_alignStart="@+id/dataView10" />
+
+            <TextView
+                android:id="@+id/dataView12"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignLeft="@+id/dataView11"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/dataView11"
+                android:layout_below="@+id/dataView11"
+                android:layout_gravity="top"
+                android:layout_toEndOf="@+id/textViewTicket11"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_above="@+id/buttonTicket13" />
+
+            <TextView
+                android:id="@+id/dataView13"
+
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignLeft="@+id/dataView12"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/dataView12"
+                android:layout_below="@+id/dataView12"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTicket10"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/buttonTicket11"
+                android:layout_alignEnd="@+id/textViewTicket9"
+
+                android:layout_alignLeft="@+id/textViewTicket11"
+                android:layout_alignRight="@+id/textViewTicket9"
+                android:layout_alignStart="@+id/textViewTicket11"
+                android:layout_below="@+id/textViewTicket9"
+                android:layout_gravity="top"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTicket11"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/buttonTicket12"
+                android:layout_below="@+id/textViewTicket10"
+                android:layout_gravity="top"
+                android:layout_toEndOf="@+id/buttonTicket10"
+                android:layout_toRightOf="@+id/buttonTicket10"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTicket12"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/buttonTicket13"
+                android:layout_below="@+id/textViewTicket11"
+                android:layout_gravity="top"
+                android:layout_toEndOf="@+id/buttonTicket12"
+                android:layout_toRightOf="@+id/buttonTicket12"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTicket13"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/textViewTicket12"
+                android:layout_gravity="top"
+                android:layout_toEndOf="@+id/buttonTicket12"
+                android:layout_toRightOf="@+id/buttonTicket12"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTicket9"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/buttonTicket9"
+                android:layout_below="@+id/textViewTicket8"
+                android:layout_gravity="top"
+                android:layout_toEndOf="@+id/buttonTicket8"
+                android:layout_toRightOf="@+id/buttonTicket8"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTicket5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/buttonTicket5"
+                android:layout_below="@+id/buttonTicket4"
+                android:layout_gravity="top"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/buttonTicket4"
+                android:layout_alignRight="@+id/textViewTicket4"
+                android:layout_alignEnd="@+id/textViewTicket4" />
+
+            <TextView
+                android:id="@+id/textViewTicket6"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/buttonTicket6"
+                android:layout_below="@+id/textViewTicket5"
+                android:layout_gravity="top"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/buttonTicket5"
+                android:layout_toLeftOf="@+id/dataView5"
+                android:layout_toStartOf="@+id/dataView5" />
+
+            <TextView
+                android:id="@+id/textViewTicket7"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/buttonTicket7"
+                android:layout_below="@+id/textViewTicket6"
+                android:layout_gravity="top"
+                android:layout_toEndOf="@+id/buttonTicket7"
+                android:layout_toRightOf="@+id/buttonTicket7"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTicket8"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/buttonTicket9"
+                android:layout_below="@+id/textViewTicket7"
+                android:layout_gravity="top"
+                android:layout_toEndOf="@+id/buttonTicket8"
+                android:layout_toRightOf="@+id/buttonTicket8"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonTicket1"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 1" />
+
+            <Button
+                android:id="@+id/buttonTicket2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonTicket1"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 2"
+                android:layout_toLeftOf="@+id/textViewTicket1"
+                android:layout_toStartOf="@+id/textViewTicket1" />
+
+            <Button
+                android:id="@+id/buttonTicket3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/buttonTicket2"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 3"
+                android:layout_toLeftOf="@+id/textViewTicket2"
+                android:layout_toStartOf="@+id/textViewTicket2" />
+
+            <Button
+                android:id="@+id/buttonTicket4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_below="@id/buttonTicket3"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 4"
+                android:layout_toLeftOf="@+id/textViewTicket3"
+                android:layout_toStartOf="@+id/textViewTicket3" />
+
+            <Button
+                android:id="@+id/buttonTicket5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/buttonTicket4"
+
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 5"
+                android:layout_toStartOf="@+id/textViewTicket4"
+                android:layout_toLeftOf="@+id/textViewTicket4" />
+
+            <Button
+                android:id="@+id/buttonTicket6"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/buttonTicket5"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 6"
+                android:layout_toLeftOf="@+id/textViewTicket5"
+                android:layout_toStartOf="@+id/textViewTicket5" />
+
+            <Button
+                android:id="@+id/buttonTicket7"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/buttonTicket6"
+                android:layout_marginLeft="0dp"
+                android:layout_toLeftOf="@+id/textViewTicket6"
+                android:layout_toStartOf="@+id/textViewTicket6"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 7" />
+
+            <Button
+                android:id="@+id/buttonTicket8"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/buttonTicket7"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 8"
+                android:layout_toLeftOf="@+id/textViewTicket7"
+                android:layout_toStartOf="@+id/textViewTicket7" />
+
+            <Button
+                android:id="@+id/buttonTicket9"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/buttonTicket8"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 9"
+                android:layout_toLeftOf="@+id/textViewTicket9"
+                android:layout_toStartOf="@+id/textViewTicket9" />
+
+            <Button
+                android:id="@+id/buttonTicket10"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/buttonTicket9"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 10"
+                android:layout_toStartOf="@+id/textViewTicket9"
+                android:layout_toLeftOf="@+id/textViewTicket9" />
+
+            <Button
+                android:id="@+id/buttonTicket11"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/buttonTicket10"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 11"
+                android:layout_toLeftOf="@+id/textViewTicket10"
+                android:layout_toStartOf="@+id/textViewTicket10" />
+
+            <Button
+                android:id="@+id/buttonTicket12"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/buttonTicket11"
+
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 12"
+                android:layout_toLeftOf="@+id/textViewTicket11"
+                android:layout_toStartOf="@+id/textViewTicket11" />
+
+            <Button
+                android:id="@+id/buttonTicket13"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/buttonTicket12"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/roundfortest"
+                android:text="Билет 13"
+                android:layout_toLeftOf="@+id/textViewTicket12"
+                android:layout_toStartOf="@+id/textViewTicket12" />
+
+            <TextView
+                android:id="@+id/textViewTicket1"
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_marginRight="50dp"
+                android:layout_alignBottom="@+id/buttonTicket1"
+                android:layout_toRightOf="@+id/buttonTicket1"
+                android:layout_toEndOf="@+id/buttonTicket1"
+                android:layout_alignTop="@+id/buttonTicket1" />
+
+            <TextView
+                android:id="@+id/textViewTicket2"
+
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/buttonTicket3"
+                android:layout_below="@+id/buttonTicket1"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_alignRight="@+id/textViewTicket1"
+                android:layout_alignEnd="@+id/textViewTicket1"
+                android:layout_toRightOf="@+id/buttonTicket1"
+                android:layout_toEndOf="@+id/buttonTicket1" />
+
+            <TextView
+                android:id="@+id/textViewTicket3"
+
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/buttonTicket4"
+                android:layout_below="@+id/buttonTicket2"
+                android:layout_gravity="top"
+                android:layout_toRightOf="@+id/buttonTicket3"
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_alignRight="@+id/textViewTicket2"
+                android:layout_alignEnd="@+id/textViewTicket2" />
+
+            <TextView
+                android:id="@+id/textViewTicket4"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/textViewTicket5"
+                android:layout_below="@+id/textViewTicket3"
+                android:layout_gravity="top"
+                android:layout_toLeftOf="@+id/dataView3"
+
+                android:gravity="center"
+                android:text="-"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/buttonTicket3"
+                android:layout_toEndOf="@+id/buttonTicket3" />
+
+            <TextView
+                android:layout_marginLeft="262dp"
+                android:layout_marginTop="2dp"
+                android:id="@+id/textView6"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textViewTicket1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="47dp"
+                android:layout_marginRight="47dp"
+                android:text="Ошибки" />
+
+            <TextView
+
+                android:layout_marginTop="2dp"
+                android:id="@+id/textView7"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textViewTicket1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Вход" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
